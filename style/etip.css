@@ -1,10 +1,11 @@
 *{
     margin: 0;
     font-family: 'Work Sans', sans-serif;
+
 }
 
 .banner{
-    position: absolute;
+    /* position: absolute; */
     width: 1600px;
     height: 808px;
     display: flex;
@@ -40,3 +41,52 @@
     border-color: #FFFFFF;
     border-radius: 5px;
 }
+
+/* Failures About Section */
+
+.about{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 130px;
+}
+
+/* .about-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 131px;
+    padding: 100%;
+} */
+
+.about-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    margin-bottom: 24px;
+    padding-left: 80px;
+}
+
+.about-description{
+    color: #151414;
+    text-align: left;
+    margin-right: 320px;
+    padding-left: 80px;
+    padding-bottom: 16px;
+    line-height: 26px;
+}
+
+.description{
+    color: #444343;
+    padding-left: 80px;
+    text-decoration: solid;
+    
+    
+}
+
+.tickmark{
+    color: #16D887;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
