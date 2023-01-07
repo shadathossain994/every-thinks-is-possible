@@ -66,6 +66,34 @@
     margin-top: 15px;
     align-items: center;
 }
+/* Welcome section */
+
+.welcome-main{
+    background: #16D887;
+}
+.welcome{
+    display: flex;
+    margin-top: 100px;
+    color: #008BDA;
+}
+
+.welcome-title{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 80px;
+    padding-top: 200px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+}
+
+.welcome-description{
+    color: #757575;
+    font-size: 18px;
+    padding-bottom: 30px;
+    padding-left: 200px;
+}
+
+
 /* Failures About Section */
 
 .about{
