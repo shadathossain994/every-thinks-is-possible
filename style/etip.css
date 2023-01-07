@@ -1,12 +1,11 @@
 *{
     margin: 0;
     font-family: 'Work Sans', sans-serif;
-
 }
 
 .banner{
     /* position: absolute; */
-    width: 1600px;
+    max-width: fit-content;
     height: 808px;
     display: flex;
     align-items: center;
@@ -19,8 +18,8 @@
     line-height: 80px;
     text-align: right;
     position: absolute;
-    padding-left: 800px;
-    padding-right: 200px;
+    padding-left: 850px;
+    padding-right: 130px;
 }
 
 .banner-sub-title{
@@ -37,19 +36,45 @@
     font-size: 20px;
     line-height: 23px;
     text-align: right;
-    padding: 25px 20px;
+    padding: 15px 30px;
     border-color: #FFFFFF;
     border-radius: 5px;
 }
 
+.btn-secondary{
+    display: block;
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    padding: 15px 30px;
+    border-color: #FFFFFF;
+    margin-top: 24px;
+}
+
+.btn-primary-1{
+    display: block;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 8px;
+    background: #005FAC;
+    padding: 15px 30px;
+    border-color: #005FAC;
+    margin-top: 15px;
+    align-items: center;
+}
 /* Failures About Section */
 
 .about{
     display: flex;
     align-items: center;
-    margin-left: 200px;
+    /* margin-left: 200px; */
+    padding-left: 200px;
     margin-top: 130px;
-    background: #fff8f3;
+    background: #FFFFFF;
 }
 
 /* .about-container{
@@ -119,11 +144,6 @@
     margin-bottom: 24px;
 }
 
-.plan p{
-
-}
-
-
 .plan-title{
     text-align: center;
     font-weight: 700;
@@ -134,4 +154,126 @@
 .plan-description{
     color: #737272;
     font-size: 20   px;
+}
+
+/* Contact Section */
+
+.contact{
+    margin: 0;
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    margin-bottom: 130px;
+}
+
+.contact-title{
+    position: absolute;
+    width: 459px;
+    height: 182px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 60px;
+    padding-left: 64px;
+
+    
+}
+.contact-container{
+    margin-right: 200px;
+    padding-left: 200px;
+    padding-top: 2px;
+
+}
+
+.gradient{
+    position: relative;
+    padding-top: 130px;   
+}
+
+.watch{
+    margin-top: 130px;
+    position: absolute;
+/* 
+    top: 132px;
+    left: 200px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%); */
+}
+
+
+
+
+/* footer section */
+
+.footer{
+    display: flex;
+    background-color: #151414;
+    padding: 130px;
+    /* position: absolute; */
+    margin-top: 550px;
+    width: 1340px;
+ 
+}
+
+
+.footer-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+
+.footer-description{
+    font-weight: 300;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 26px;
+    padding-right: 500px;
+    padding-top: 20px;
+}
+
+
+/* .fp1 ul{
+    display: flex;
+    background-color: 0px;
+    gap: 17px;
+} */
+
+/* .fp1 li{
+    position: absolute;
+    text-decoration: none;
+    display: flex;
+
+    gap: 30px;
+} */
+/* 
+.icon{
+    display: inline;
+    gap: 155px;
+} */
+
+.fp1 img{
+    padding-right: 17px;
+    padding-top: 32px;
+}
+
+.fp2{
+    color: #FFFFFF;
+    padding-bottom: 25px;
+    padding-right: 80px;
+    
+}
+
+.fp-title{
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.fp2 input{
+    box-sizing: border-box;
+    padding: 21px 22px;
+    width: 325px;
+    border: 1px solid #ffffff;
+    background-color: #151414;
+    border-radius: 8px;
 }
